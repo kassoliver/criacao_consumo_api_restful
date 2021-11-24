@@ -1,6 +1,5 @@
 # Criação e Consumo de APIs Restful
 
-## Tela Principal
 ![alt text](screenshot-frontend.png)
 
 ## Frontend
@@ -22,7 +21,7 @@
 
 ## Backend
 
-| Depedências | Links |
+| Dependências | Links |
 | ------ | ----- |
 | cors | [link](https://github.com/expressjs/cors#readme) |
 | express | [link](https://expressjs.com/) |
@@ -30,7 +29,7 @@
 | mysql2 | [link](https://yarnpkg.com/package/mysql2) |
 | dotenv | [link](https://www.npmjs.com/package/dotenv) |  
 
-| Depêndencias Dev | Links |
+| Dependências Dev | Links |
 | ------ | ----- |
 | nodemon | [link](https://nodemon.io/) |
 | sequelize-cli | [link](https://github.com/sequelize/cli#readme) |
@@ -51,7 +50,7 @@
 
 ### Configurar variáveis de ambiente
 
-Copie o arquivo `env.exemplo` deste projeto e renomei para `.env` (que será ignorado pelo Git):
+Copie o arquivo `env.exemplo` deste projeto e altere o nome para `.env` (que será ignorado pelo Git):
 
 ```bash
 cp .env.exemplo .env
@@ -91,6 +90,10 @@ Retorno:
 ```json
 {"error":false,"data":{"id":7,"nome":"Teste ","peso":"2","endereco":"Rua teste, 01 ","telefone":"33999999999","updatedAt":"2021-11-23T19:34:58.590Z","createdAt":"2021-11-23T19:34:58.590Z"},"message":"Delivery criado com sucesso!"}
 ```
+Status 400:
+
+![alt text](status400.png)
+
 #### GET
 Para listar todos os deliveries via Postman acesse a rota http://localhost:3333/GET/deliveries.
 
