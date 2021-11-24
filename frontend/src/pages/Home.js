@@ -38,7 +38,6 @@ class Home extends Component {
 
         api.post('POST/deliveries', qs.stringify(delivery))
             .then(res => {
-                console.log(res);
                 this.refreshDeliveryTable();
             });
     };
