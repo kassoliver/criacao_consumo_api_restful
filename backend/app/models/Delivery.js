@@ -7,7 +7,6 @@ module.exports = (sequelize, DataTypes) => {
     telefone: DataTypes.STRING,
   }, {});
   Delivery.associate = function(models) {
-    // associations can be defined here
   };
   return Delivery;
 };
