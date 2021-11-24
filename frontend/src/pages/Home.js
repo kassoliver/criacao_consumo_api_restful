@@ -62,10 +62,6 @@ class Home extends Component {
         this.setEditing(true);
     };
 
-    // limpaCampos(){
-    //     setDelivery(initialFormState);
-    // };
-
     setEditing = isEditing => {
 
         this.setState({ editing: isEditing });
